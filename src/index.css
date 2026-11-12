@@ -1,0 +1,25 @@
+
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  background: #1b0c1a;
+  color: #fff0f4;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+  font: inherit;
+}
